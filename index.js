@@ -1,3 +1,4 @@
+//ANIMATION: $(SELECTOR).animate(PROPERTIES, OPTIONS);//
 $("#myDiv").hover(
     function () {
         $(this).animate({ width: "+=100" });
