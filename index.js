@@ -37,3 +37,18 @@ $("#Div1").hover(
 
     }
 );
+
+$("#Div2").hover(function () {
+    $(this).animate({
+        width: 250,
+        height: 250,
+        borderWidth: "3px",
+
+    }, 1500, )
+}, function () {
+    $(this).animate({
+        width: 100, //This is all the CSS.
+        height: 100,
+        borderWidth: "1px",
+    }, 1500, )
+})
